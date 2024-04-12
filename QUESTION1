@@ -1,0 +1,24 @@
+A.SELECT Ename,Sal
+  FROM Emp1
+  WHERE Sal >= 2200;
+
+B.SELECT *
+  FROM Emp1
+  WHERE Comm IS NULL;
+
+C.SELECT Ename,Sal
+  FROM Emp
+  WHERE Sal<2500 OR Sal>4000;
+
+D.SELECT Ename,Job,Sal
+  FROM Emp1
+  WHERE Mgr IS NULL;
+
+E.SELECT Ename
+  FROM Emp1
+  WHERE Ename LIKE '__A%';
+
+F.SELECT Ename
+  FROM Emp1
+  WHERE Ename LIKE '%T';
+  
